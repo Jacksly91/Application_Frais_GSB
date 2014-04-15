@@ -1,0 +1,408 @@
+/* Styles des divisions principales de la page */
+body{
+  background-color: #333;
+  background-image: url(imgs/FONDGLOBAL.jpg);
+  background-repeat: repeat-x;
+  margin:0;
+  font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size:0.8em;
+}
+#entete{
+  color : #fff;
+  border-collapse: separate;
+  margin : auto;
+  width: 80%;
+  min-height: 108px;
+  font-family:Verdana,Serif;
+}
+#visiteur{
+  color : #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin : 10px auto;
+  text-align: center;
+}
+/*#page {
+  background-color: #01B0F0;
+  width : 65%;
+  margin : auto;
+  padding : 0.1em;  
+  min-height: 500px;
+}*/
+#pied{
+  clear : both;
+  border : solid 0.2em #980101;
+  margin-left : 18%;
+  margin-top : 1em;
+  padding:0.4em;
+  padding: 0.2em;
+  border-collapse: separate;
+}
+#menu {
+  width:100%;
+  overflow:auto;
+  font-size: 17px;
+}
+#contenu{
+  border: none;
+  background-color: white;
+  margin : auto;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  width : 80%;  
+/* permet de fixer une hauteur mini sur les navigateurs modernes */
+  min-height:10em;
+/* pour obtenir le même effet sur IE, sachant que si le contenu dépasse, il
+"poussera" la hauteur en ne respectant pas la norme. On se joue de ses lacunes
+*/
+  height:10em;
+}
+
+#contenuConnexion{
+  border: none;
+  background-color: white;
+  margin : auto;
+  width : 100%;  
+  min-height: 170px;
+}
+
+#contenu p{
+  padding: 0;
+  margin: 15px auto;
+}
+
+#forfait{
+  width: 300px;
+}
+
+.horsforfait{
+  width: 600px;
+}
+
+/* pour rétablir le mauvais effet sur les nav. modernes */
+html>body #contenu{
+  height:auto;
+}
+
+#menu ul, #menu li {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+#menu li {
+  float:left;
+  width:33.33%;
+  text-align:center;
+}
+#menu a {
+  display:block;
+  background:#3879D9;
+  border-top: 1px solid #71a5f1;
+  border-bottom: 1px solid #105bc9;
+  color:#fff;
+  text-decoration:none;
+  line-height: 38px;
+}
+#menu a:hover {
+  background:#3890E9;
+}
+
+#entete #logoGSB {
+  float : left;
+  width : 200px;
+  height : 128px;
+  margin-bottom: 10px;
+  }
+
+#entete h1 {
+  font-size : 25px;
+  text-align:center;
+  margin: 0;
+  padding-top: 30px;
+}
+
+#contenu pre {
+  width:95%;
+  overflow : scroll;
+}
+#contenu h2{
+  font-size : large;
+  text-align:left;
+  margin:0;
+  padding: 7px 20px;
+  border-bottom: 1px solid #105bc9;
+}
+#contenu h3{
+  text-align:center;
+  margin:0;
+  padding: 4px 0;
+  background-color: #77AADD;
+  border-bottom: 1px solid #318CE7;
+}
+#contenuConnexion h2{
+  font-size : large;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom:0.5em;
+  padding: 9px 20px;
+}
+
+.logoValidW3c {
+  display: inline;
+}
+#libValidW3c{
+  display : inline;
+  vertical-align:middle;
+}
+
+/* Style des formulaires */
+.elements {
+  margin: 10px;
+}
+
+.corpsForm {
+  margin-bottom : 0em;
+  width : 100%;
+}
+.piedForm {
+  text-align:center ;
+  width : 100%;
+  margin-top:0;
+}
+form {
+  margin-bottom:1em;
+  text-align: center;
+}
+.corpsForm legend {
+  font-weight:bold;
+  font-size:1.2em;
+}
+.corpsForm label{
+  float: left;
+  text-align:right;
+  width: 40%;
+  margin: 0;
+  padding: 0 .5em 0 0;
+  line-height: 1.8; 
+}
+input, button, textarea, select{
+  font-family:"Trebuchet MS", sans-serif;
+  font-size : 1em;
+}
+button{
+  width : 60px;
+  height : 30px;
+  text-align:center;
+  vertical-align:middle;
+}
+input:hover, textarea:hover, select:hover{
+  background-color : #FAFAE6;
+  cursor : pointer;
+}
+
+/*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de 
+taille de caractères légèrement supérieure à la normale */
+.erreur{
+  color: red;
+  font-size:1.1em;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+}
+.centre {
+  text-align:center;
+}
+
+.info {
+   background-color:rgb(178,207,81);
+   color : white;
+   font-size:1.1em;
+   width : 95%  
+}
+
+/* Style pour les liens de la page principale */
+#contenu .corpsTexte {
+  width:80%;
+  font-size:1.2em;
+}
+
+/* Style pour les liens de la page principale */
+#contenu a {
+   font-size : 1.1em;
+   color:gray;
+   text-decoration:none;
+}
+#contenu a:hover {
+   text-decoration:none;
+   background-color : #D9BB7A;
+}
+
+/* Style pour les parties importantes de la page principale */
+#contenu strong {
+  font-weight:bold;
+}
+
+/* Styles pour les tableaux de la page principale */
+#contenu table {
+  background-color:#FFF;
+  border : 0.1em solid #777777;
+  color:black;
+  margin-bottom:15px;
+  border-collapse : collapse;
+  margin: auto;
+}
+
+caption {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Style pour les lignes d'en-tête des tableaux */
+#contenu th {  
+   background-color:#3879D9;
+   width : 150px;
+   height:21px;
+   text-align:left;
+   vertical-align:top;
+   font-weight:bold;
+   border:0.1em solid #656565;
+   font-size:1em;
+}
+
+.lib {
+	width : 100%;
+}
+
+#contenu td {
+   border :1px solid #777777;
+   font-size:0.95em;
+}
+
+#contenu h3 {
+    font-size : 1.2em;
+}
+
+#contenu h2, #contenuConnexion h2{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3879D9;
+}
+
+#contenu img {
+  height : 28px;
+  float : left;
+}
+
+#actu {
+	padding : 0 20px;
+}
+
+tr {
+	margin: 10px;
+}
+
+/* min-width pour moyennes résolutions */
+@media screen and (min-width: 1024px) {
+  #entete{
+     width: 65%;
+     min-height: 129px;
+  }
+  
+  #entete h1 {
+    padding-top: 45px;
+    font-size: 28px;
+  }
+  
+  #entete #logoGSB {
+    width : 233px;
+    height : 149px;
+  }
+  
+  #contenu {
+  width:65%;
+  }
+}
+
+/* max-width pour faibles résolutions */
+@media screen and (max-width: 680px) {
+  #menu {
+    clear:both;
+    width:100%;
+  }
+
+  #menu a {
+    display:block;
+  }
+
+  #menu li {
+    float:none;
+    width:100%;
+  }
+
+  #entete{
+   width: 98%;
+   min-height: 76px;
+  }
+
+  #entete #logoGSB {
+    width : 150px;
+    height : 96px;
+  }
+
+  #entete h1 {
+    padding-top: 10px;
+    font-size: 22px;
+  }
+
+  #contenu {
+	width:95%;
+  } 
+
+  #contenu h2 {
+	text-align:center;
+  }
+}
+
+/* max-width pour faibles résolutions */
+@media all and (max-device-width: 480px) {
+  #menu {
+    clear:both;
+    width:100%;
+  }
+
+  #menu a {
+    display:block;
+  }
+
+  #menu li {
+    float:none;
+    width:100%;
+  }
+
+  #entete{
+   width: 98%;
+   min-height: 76px;
+  }
+
+  #entete #logoGSB {
+    width : 150px;
+    height : 96px;
+  }
+
+  #entete h1 {
+    padding-top: 10px;
+    font-size: 22px;
+  }
+
+  #contenu {
+  width:95%;
+  } 
+
+  #contenu h2 {
+  text-align:center;
+  }
+}
