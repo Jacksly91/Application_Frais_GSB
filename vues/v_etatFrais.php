@@ -34,6 +34,8 @@
 		      ?>
 		    </tr>
     </table>
+    <?php if($lesFraisHorsForfait!=null){ ?>
+   
   	<table class="listeLegere">
       <caption>Eléments hors forfait : <?php echo $nbJustificatifs ?> justificatifs reçus
       </caption>
@@ -54,10 +56,12 @@
           <td><?php echo $libelle ?></td>
           <td><?php echo $montant ?></td>
         </tr>
+  
         <?php 
             }
 		    ?>
     </table>
+    <?php } ?>
   </div>
 </div>
  
