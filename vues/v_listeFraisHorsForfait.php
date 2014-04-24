@@ -29,7 +29,7 @@
        
             <script type="text/javascript">
               $(function(){
-                $("#txtDateHF").datepicker({dateFormat:'dd/mm/yy'});
+                $("#txtDateHF").datepicker();
               });
             </script>                                      
         </table>
