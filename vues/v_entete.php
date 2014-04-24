@@ -5,12 +5,11 @@
     <title>Intranet du Laboratoire Galaxy-Swiss Bourdin</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
-    <link href="./styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" type="text/css" />
-    <link href="./styles/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="./js/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="./js/jquery-ui-1.10.4.custom.js"></script>
-    <script type="text/javascript" src="./js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.ui.datepicker-fr.js"></script>
+    <link href="./styles/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui-1.10.3.custom.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui-1.10.3.custom.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body>
