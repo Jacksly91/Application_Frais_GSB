@@ -5,6 +5,7 @@
 		<form method="POST"  action="index.php?uc=gererFrais&action=validerMajFraisForfait">
 			<div class="corpsForm">
 						<?php
+							$i = 1;
 							foreach ($lesFraisForfait as $unFrais)
 							{
 								$idFrais = $unFrais['idFrais'];
@@ -13,11 +14,12 @@
 						?>
 						
 						<p id="forfait">
-							<label for="idFrais"><?php echo $libelle ?></label>
-							<input type="text" id="idFrais" name="lesFrais[<?php echo $idFrais?>]" size="12" maxlength="5" value="<?php echo $quantite?>" >
+							<label for=<?php echo('IdFrais'.$i);?>><?php echo $libelle ?></label>
+							<input type="text" id=<?php echo('IdFrais'.$i);?> name="lesFrais[<?php echo $idFrais?>]" size="12" maxlength="5" value="<?php echo $quantite?>" >
 						</p>
 					
 						<?php
+							$i = $i +1;
 							}
 						?> 
 		      	</div>
