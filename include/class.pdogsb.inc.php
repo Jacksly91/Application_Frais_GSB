@@ -213,7 +213,7 @@ class PdoGsb{
 		PdoGsb::$monPdo->exec($req);
 		$lesIdFrais = $this->getLesIdFrais();
 		foreach($lesIdFrais as $uneLigneIdFrais){
-			$unIdFrais = $uneLigneIdFrais['idfrais'];
+			$unIdFrais = $uneLigneIdFrais['idFrais'];
 			$req = "insert into LigneFraisForfait(idVisiteur,mois,idFraisForfait,quantite) 
 			values('$idVisiteur','$mois','$unIdFrais',0)";
 			PdoGsb::$monPdo->exec($req);
