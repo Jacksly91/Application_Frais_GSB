@@ -1,3 +1,4 @@
+    <?php if($lesFraisHorsForfait!=null){ ?>
     <h3>Eléments hors forfait</h3>
     <div class="elements">
         <table class="listeLegere">
@@ -7,8 +8,8 @@
                 <th class="montant">Montant</th>  
                 <th class="action">&nbsp;</th>              
             </tr>
-            
-        <?php    
+     <?php } ?>
+        <?php 
     	    foreach( $lesFraisHorsForfait as $unFraisHorsForfait) 
     		{
     			$libelle = $unFraisHorsForfait['libelle'];
@@ -25,6 +26,7 @@
             </tr>
       	<?php		         
           }
+        
       	?>	
        
             <script type="text/javascript">
